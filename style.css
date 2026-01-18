@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* #navbar {
+#navbar {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -13,7 +13,7 @@
     background-color: white;
     color: black;
 
-} */
+}
 
 .img {
     display: none;
@@ -263,9 +263,7 @@ img {
 
 }
 
-#leftsection4 #first {
-   
-}
+
 
 #leftsection4 #h3 {
     visibility: visible;
@@ -453,4 +451,16 @@ img {
 
 #lefftsection4 h1 {
     font-size: larger;
+}
+
+@media (max-width:768px) {
+    #ima {
+        
+    }
+}
+@media (max-width:768px) {
+    #apple-logo {
+        display: flex;
+        justify-content: start;
+    }
 }
